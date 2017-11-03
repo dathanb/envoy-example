@@ -1,0 +1,10 @@
+version: '2'
+services:
+  hilo:
+    image: hilo
+    ports:
+      - "3333:4567"
+  sumdumgai:
+    image: sumdumgai
+    ports:
+      - "3334:4567"
