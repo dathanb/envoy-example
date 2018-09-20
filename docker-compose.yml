@@ -8,3 +8,8 @@ services:
     image: sumdumgai
     ports:
       - "3334:4567"
+  envoy:
+    image: my_envoy
+    ports:
+      - 8080:10000
+      - 8081:9901
